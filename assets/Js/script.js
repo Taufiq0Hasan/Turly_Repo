@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 'use strict';
 
 /**
@@ -46,6 +47,8 @@ window.addEventListener("scroll", function () {
 
 });
 =======
+=======
+>>>>>>> 463f745db6dbe25ab575a2e9e4082590e55f4f0a
 const fs = require('fs');
 
 // Create a folder named "myFolder"
@@ -56,4 +59,7 @@ fs.mkdir('myFolder', (err) => {
     console.log('Folder created successfully!');
   }
 });
+<<<<<<< HEAD
 >>>>>>> a88cbc0dce1fa58d3e493e43c15dbc7c1883c882
+=======
+>>>>>>> 463f745db6dbe25ab575a2e9e4082590e55f4f0a
