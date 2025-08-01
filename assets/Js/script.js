@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 'use strict';
 
 /**
@@ -44,3 +45,15 @@ window.addEventListener("scroll", function () {
   }
 
 });
+=======
+const fs = require('fs');
+
+// Create a folder named "myFolder"
+fs.mkdir('myFolder', (err) => {
+  if (err) {
+    console.error('Error creating folder:', err);
+  } else {
+    console.log('Folder created successfully!');
+  }
+});
+>>>>>>> a88cbc0dce1fa58d3e493e43c15dbc7c1883c882
